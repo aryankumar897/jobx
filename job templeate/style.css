@@ -1,0 +1,84 @@
+/* Form Container */
+.outer-container{
+  background-image: url('/image/t.png');
+  background-size: cover; /* Adjust background size */
+  background-position: center; /* Adjust background position */
+
+}
+
+.form-container {
+
+
+   max-width: 500px;
+ 
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+   background-color: #fffffff9;
+    box-shadow: 10px 12px 4px rgba(182, 175, 175, 0.1);
+
+ /* Background Image */
+  background-image: url('/image/t.png');
+  background-size: cover; /* Adjust background size */
+  background-position: center; /* Adjust background position */
+}
+
+/* Form Title */
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form Group (Input + Label) */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Input Fields */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Checkbox Label */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Error Message */
+.error-message {
+  color: #ff6347;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Submit Button */
+button[type='submit'] {
+    width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}

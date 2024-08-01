@@ -1,0 +1,10 @@
+.overflow-scroll {
+    overflow: scroll !important;
+}
+
+.overflow-scroll {
+    overflow-x: hidden !important; /* Hide horizontal scrollbar */
+    overflow-y: auto !important; /* Show vertical scrollbar */
+    scrollbar-width: 5px !important; /* Firefox: make scrollbar thin */
+    scrollbar-color: green #f1f1f1 !important; /* Firefox: thumb and track color */
+}
